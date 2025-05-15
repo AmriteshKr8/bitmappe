@@ -1,0 +1,86 @@
+body {
+    font-family: JetBrains Mono, monospace;
+    background-color: #333;
+    color: #ddd;
+}
+fieldset{
+    background-color: #444;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px 10px;
+    border-radius: 8px;
+}
+
+#header{
+    color: #eee;
+    text-align: center;
+}
+
+.right{
+    float: right;
+}
+
+#params{
+    align-items: center;
+}
+
+legend{
+    background-color: #444;
+    color: #eee;
+    padding: 10px;
+    border-radius: 8px;
+    border-top:#ccc solid 1px;
+    border-left:#ccc solid 1px;
+    border-right:#ccc solid 1px;
+}
+
+#params select{
+    background-color: #555;
+    color: #eee;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    padding: 8px;
+    margin: 8px;
+}
+
+#params input[type="text"]{
+    background-color: #555;
+    color: #eee;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    padding: 8px;
+    margin: 8px;
+}
+
+#params input[type="button"]{
+    background-color: #555;
+    color: #eee;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    padding: 8px;
+    margin: 8px;
+}
+
+.checkbox{
+    appearance: none;
+    background-color: #333;
+    color: #555;
+    border-radius: 4px;
+    border: 1px solid #ccc; 
+    cursor: pointer;
+}
+
+.checkbox:checked{
+    background-color: #ddd;
+    border: 1px solid #444; 
+}
+
+#canvas{
+    justify-content: center;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+#canvas-container{
+    justify-content: center;
+}
